@@ -1,150 +1,90 @@
-## Pull Request Summary
+# Pull Request to Main
 
-### Description
+## Summary
 
-<!-- Briefly explain what this PR changes and why. -->
-
-## **What was changed?**
-
-## **Why was this change required?**
-
-### Related Issue / Ticket
-
-<!-- Link the related Jira/GitHub issue/ticket. -->
-
-* Issue: #
+Provide a clear summary of the changes included in this PR.
 
 ---
 
 ## Change Type
 
-Select all that apply:
+- [ ] Feature
+- [ ] Bug Fix
+- [ ] Enhancement
+- [ ] Refactoring
+- [ ] Performance Improvement
+- [ ] Security Fix
+- [ ] Infrastructure Change
+- [ ] Documentation Update
+- [ ] Hotfix
 
-* [ ] Feature
-* [ ] Bug Fix
-* [ ] Enhancement
-* [ ] Refactoring
-* [ ] Performance Improvement
-* [ ] Security Fix
-* [ ] Documentation
-* [ ] Configuration / Infrastructure
-* [ ] Hotfix
+---
+
+## Business Justification
+
+Why is this change required?
 
 ---
 
 ## Implementation Details
 
-<!-- Describe the important technical changes. -->
+Describe the technical changes:
 
-*
-*
-*
+-
+-
+-
+
+---
 
 ## Testing
 
 ### Testing Performed
 
-<!-- Describe how the changes were tested. -->
+-
+-
+-
 
-* [ ] Unit tests
-* [ ] Integration tests
-* [ ] API testing
-* [ ] UI testing
-* [ ] Regression testing
-* [ ] Manual testing
-* [ ] Other: __________
+### Validation Checklist
 
-## **Test Details:**
-
----
-
-## Deployment Impact
-
-* [ ] No deployment changes required
-* [ ] Requires application deployment
-* [ ] Requires database migration
-* [ ] Requires configuration/environment changes
-* [ ] Requires infrastructure changes
-* [ ] Requires downtime
-
-**Deployment Notes:**
-
-<!-- Mention any deployment steps, migration commands, environment variables, configuration changes, etc. -->
-
-*
+- [ ] Application builds successfully
+- [ ] Unit testing completed
+- [ ] Manual testing completed
+- [ ] No regression identified
+- [ ] Documentation updated (if required)
 
 ---
 
-## Security & Compliance
+## Database Changes
 
-* [ ] No security impact
-* [ ] Security impact reviewed
-* [ ] No credentials/secrets committed
-* [ ] Sensitive data is not exposed
-* [ ] Required security controls have been considered
+- [ ] No Database Changes
+- [ ] Database Migration Included
+- [ ] Data Modification Required
 
----
-
-## Backward Compatibility
-
-* [ ] Backward compatible
-* [ ] Breaking change
-
-## **If breaking change, explain:**
+Details:
 
 ---
 
-## Screenshots / Evidence
+## Deployment Notes
 
-<!-- Add screenshots, API responses, logs, test results, or other evidence where applicable. -->
+- [ ] No Special Deployment Required
+- [ ] Environment Variables Updated
+- [ ] Infrastructure Changes Required
+- [ ] Release Notes Required
 
-### Before
-
-<!-- Optional -->
-
-### After
-
-<!-- Optional -->
+Details:
 
 ---
 
-## Pre-Merge Checklist
+## Screenshots / Evidence (If Applicable)
 
-* [ ] Code follows project coding standards
-* [ ] Code has been reviewed locally
-* [ ] No unnecessary/debug code remains
-* [ ] No credentials, secrets, or sensitive information are committed
-* [ ] Tests have been completed successfully
-* [ ] Documentation has been updated where required
-* [ ] Database changes have been reviewed
-* [ ] Deployment requirements have been documented
-* [ ] CI/CD pipeline checks are passing
-* [ ] Branch is up to date with `main`
-* [ ] All review comments have been addressed
+Attach screenshots, logs, or test evidence.
 
 ---
 
-## Reviewer Checklist
+## Final Checklist
 
-* [ ] Code quality reviewed
-* [ ] Functionality reviewed
-* [ ] Test coverage/results reviewed
-* [ ] Security considerations reviewed
-* [ ] Performance considerations reviewed
-* [ ] Breaking changes reviewed
-* [ ] Deployment impact reviewed
-
-### Required Approvals
-
-**Minimum required approvals: 2**
-
-* [ ] Reviewer 1
-* [ ] Reviewer 2
-
----
-
-## Additional Notes
-
-<!-- Add any information reviewers or release/deployment teams should know. -->
-
-*
+- [ ] Code reviewed locally
+- [ ] No secrets, credentials, or sensitive data committed
+- [ ] Branch is up to date with main
+- [ ] CI/CD pipeline passed
+- [ ] Ready for review
