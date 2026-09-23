@@ -1,90 +1,143 @@
-# Pull Request to Main
+# 🚀 Production Release PR
 
-## Summary
+## Release Summary
 
-Provide a clear summary of the changes included in this PR.
+Provide a brief summary of this release.
+
+Example:
+- Added user profile management
+- Fixed payment reconciliation issue
+- Improved application performance
+
+Summary:
+
+____________________________________________________
 
 ---
 
-## Change Type
+## Release Type
 
-- [ ] Feature
-- [ ] Bug Fix
-- [ ] Enhancement
-- [ ] Refactoring
-- [ ] Performance Improvement
-- [ ] Security Fix
-- [ ] Infrastructure Change
-- [ ] Documentation Update
+- [ ] Feature Release
 - [ ] Hotfix
+- [ ] Security Update
+- [ ] Infrastructure Change
+- [ ] Performance Improvement
+- [ ] Documentation Update
 
 ---
 
-## Business Justification
+## Release Version
 
-Why is this change required?
+Version / Tag:
 
----
-
-## Implementation Details
-
-Describe the technical changes:
-
--
--
--
+____________________________________________________
 
 ---
 
-## Testing
+## Business Impact
 
-### Testing Performed
+What business problem or requirement does this release address?
 
--
--
--
+____________________________________________________
 
-### Validation Checklist
+____________________________________________________
 
-- [ ] Application builds successfully
-- [ ] Unit testing completed
-- [ ] Manual testing completed
-- [ ] No regression identified
-- [ ] Documentation updated (if required)
+---
+
+## Changes Included
+
+List the key changes included in this release:
+
+- 
+- 
+- 
+- 
+
+---
+
+## Testing Summary
+
+Testing performed:
+
+____________________________________________________
+
+____________________________________________________
+
+---
+
+## Deployment Plan
+
+Deployment steps:
+
+1. ________________________________________________
+
+2. ________________________________________________
+
+3. ________________________________________________
+
+---
+
+## Rollback Plan
+
+If deployment fails, rollback will be performed by:
+
+____________________________________________________
+
+____________________________________________________
 
 ---
 
 ## Database Changes
 
 - [ ] No Database Changes
-- [ ] Database Migration Included
-- [ ] Data Modification Required
+- [ ] Migration Required
+- [ ] Data Update Required
 
 Details:
 
+____________________________________________________
+
 ---
 
-## Deployment Notes
+## Environment & Configuration Changes
 
-- [ ] No Special Deployment Required
+- [ ] No Configuration Changes
 - [ ] Environment Variables Updated
-- [ ] Infrastructure Changes Required
-- [ ] Release Notes Required
+- [ ] Secrets Updated
+- [ ] Infrastructure Changes Included
 
 Details:
 
----
-
-## Screenshots / Evidence (If Applicable)
-
-Attach screenshots, logs, or test evidence.
+____________________________________________________
 
 ---
 
-## Final Checklist
+## Release Validation Checklist
 
-- [ ] Code reviewed locally
-- [ ] No secrets, credentials, or sensitive data committed
-- [ ] Branch is up to date with main
-- [ ] CI/CD pipeline passed
-- [ ] Ready for review
+### Development
+
+- [ ] Code reviewed
+- [ ] All CI/CD checks passed
+- [ ] No merge conflicts
+- [ ] No secrets or credentials committed
+
+### Testing
+
+- [ ] Unit testing completed
+- [ ] Manual testing completed
+- [ ] Regression testing completed
+- [ ] UAT sign-off received
+
+### Deployment
+
+- [ ] Deployment plan reviewed
+- [ ] Rollback plan reviewed
+- [ ] Release notes prepared
+
+---
+
+## Additional Notes
+
+____________________________________________________
+
+____________________________________________________
